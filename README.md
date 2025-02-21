@@ -67,4 +67,16 @@ Najlepsze hiperparametry zidentyfikowane podczas optymalizacji:
 
     Uzyskany najlepszy wynik walidacji krzyżowej: F1-macro.
 
+5. Porównanie wyników przed i po optymalizacji.
+
+W celu znalezienia najlepszych hiperparametrów dla modelu Logistic Regression zastosowano GridSearchCV z walidacją krzyżową (3-fold). Przed i po optymalizacji przeprowadzono analizę skuteczności modelu przy użyciu następujących metryk:
+
+    F1-score (równowaga między precyzją a czułością)
+    Accuracy (dokładność modelu)
+    AUC Score (obszar pod krzywą ROC)
+
+
+Optymalizacja hiperparametrów nie przyniosła znaczącej poprawy wyników.
+
+
 
